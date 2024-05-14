@@ -1,0 +1,15 @@
+public class Hewan {
+	String nama;
+	int umur;
+	
+	static void bersuara() {
+		System.out.println("GROARRR!!");
+	}
+	static void berlari() {
+		System.out.println("Drap! Drap! Drap!");
+	}
+	public static void main(String[] args) {
+		bersuara();
+		berlari();
+	} 
+}
