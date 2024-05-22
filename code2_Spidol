@@ -1,0 +1,36 @@
+
+public class Spidol {
+	
+	public String tinta;
+	public String merk;
+	
+	public void menulis() {
+		System.out.println("Menulis...");
+	}
+	
+	public void menandai() {
+		System.out.println("Menandai...");
+	}
+	
+	public void menggambar() {
+		System.out.println("Menggambar...");
+	}
+
+	public static void main(String[] args) {
+		Spidol spidolku = new Spidol();
+		System.out.print(spidolku.merk = "Indomi\n");
+		System.out.print(spidolku.tinta = "Merah\n");
+		spidolku.menulis();
+		
+		Spidol spidolmu = new Spidol();
+		System.out.println(spidolmu.merk = "\nSupermie");
+		System.out.println(spidolmu.tinta = "Hijau");
+		spidolmu.menandai();
+		
+		Spidol spidolnya = new Spidol();
+		System.out.println(spidolnya.merk = "\nSarimie");
+		System.out.println(spidolnya.tinta = "Biru");
+		spidolnya.menggambar();
+	}
+
+}
